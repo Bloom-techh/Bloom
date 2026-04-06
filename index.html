@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bloom 🌸 — Build a Portfolio That Gets You Hired</title>
+  <link rel="shortcut icon" href="assets/Bloom.png" type="image/x-icon">
+
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+       NAVBAR - Modern Minimal Responsive
+  ══════════════════════════════════════════ -->
+  <nav id="navbar" class="navbar">
+    <!-- Logo -->
+    <a href="#home" class="nav-logo">
+      Bloom <span>🌸</span>
+    </a>
+
+    <!-- Desktop Nav Links -->
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#templates" class="nav-link">Templates</a></li>
+      <li><a href="#how" class="nav-link">How it Works</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+      <li><a href="#contact" class="btn-nav">Get Started</a></li>
+    </ul>
+
+    <!-- Mobile Menu Toggle -->
+    <span class="menu-toggle">☰</span>
+
+    <!-- Mobile Menu (hidden by default) -->
+    <div class="mobile-menu">
+      <div class="mobile-menu-inner">
+        <span class="menu-close">&times;</span>
+        <ul class="mobile-nav-links">
+          <li><a href="#home" class="mobile-nav-link">Home</a></li>
+          <li><a href="#templates" class="mobile-nav-link">Templates</a></li>
+          <li><a href="#how" class="mobile-nav-link">How it Works</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+          <li><a href="#contact" class="btn-nav btn-nav-mobile">Get Started</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- ══════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════ -->
+  <section class="hero" id="home">
+    <!-- Background blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <!-- Floating shapes -->
+    <div class="float-shape fs-1"></div>
+    <div class="float-shape fs-2"></div>
+    <div class="float-shape fs-3"></div>
+    <div class="float-shape fs-4"></div>
+    <div class="float-shape fs-5"></div>
+
+    <div class="hero-inner">
+      <!-- Left: copy -->
+      <div class="hero-left">
+        <div class="hero-badge">
+          <div class="badge-dot"></div>
+          ✨ Now open for student portfolios
+        </div>
+        <h1 class="hero-h1">Build a Portfolio<br>That <em>Gets You Hired</em></h1>
+        <p class="hero-sub">Helping your journey with Bloom 🌸 — modern, fast, and built for students who want to stand out.</p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn-primary"><span>🚀 Get My Portfolio</span></a>
+          <a href="#templates" class="btn-secondary">🎨 Explore Templates</a>
+        </div>
+      </div>
+
+      <!-- Right: illustration card -->
+      <div class="hero-visual">
+        <div class="hero-card-main">
+          <div class="hc-avatar">👩‍💻</div>
+          <div class="hc-name">Priya Sharma</div>
+          <div class="hc-role">Frontend Developer · Student</div>
+
+          <div class="hc-bar-label"><span>Portfolio Score</span><span>92%</span></div>
+          <div class="hc-bar"><div class="hc-bar-fill" style="width:92%"></div></div>
+
+          <div class="hc-bar-label"><span>Interview Calls</span><span>+8 this week</span></div>
+          <div class="hc-bar"><div class="hc-bar-fill" style="width:78%;animation-delay:1.3s"></div></div>
+
+          <div class="hc-tags" style="margin-top:14px">
+            <div class="hc-tag">React</div>
+            <div class="hc-tag">UI Design</div>
+            <div class="hc-tag">Figma</div>
+            <div class="hc-tag">Hired ✓</div>
+          </div>
+        </div>
+
+        <div class="float-card float-card-1">
+          <div class="fc-icon green">📈</div>
+          <div><div class="fc-stat">+3</div><div class="fc-label">Profile Views</div></div>
+        </div>
+        <div class="float-card float-card-2">
+          <div class="fc-icon mint">⚡</div>
+          <div><div class="fc-stat">48 hrs</div><div class="fc-label">Delivery time</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       PROBLEM → SOLUTION
+  ══════════════════════════════════════════ -->
+  <section class="problem-section" id="problem">
+    <div class="section-inner">
+      <div class="section-tag reveal">🤔 The Problem</div>
+      <h2 class="section-title reveal reveal-delay-1">Struggling to <span style="color:var(--green-deep)">stand out?</span></h2>
+      <p class="section-sub reveal reveal-delay-2">Every student applies with a resume. Almost none have a portfolio. That gap is your opportunity.</p>
+
+      <div class="problem-grid">
+        <!-- Pain points -->
+        <div class="pain-points">
+          <div class="pain-card reveal reveal-delay-1">
+            <div class="pain-icon">😓</div>
+            <div>
+              <div class="pain-title">No portfolio = no opportunities</div>
+              <div class="pain-desc">Recruiters scroll past plain resumes. A portfolio makes you memorable in seconds.</div>
+            </div>
+          </div>
+          <div class="pain-card reveal reveal-delay-2">
+            <div class="pain-icon">📄</div>
+            <div>
+              <div class="pain-title">A resume alone isn't enough</div>
+              <div class="pain-desc">In 2025, skills need proof. Show your projects, not just list them.</div>
+            </div>
+          </div>
+          <div class="pain-card reveal reveal-delay-3">
+            <div class="pain-icon">😵</div>
+            <div>
+              <div class="pain-title">Confused where to start</div>
+              <div class="pain-desc">Design, hosting, domain, code — it's overwhelming when you're already a student.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Solution -->
+        <div class="solution-side reveal reveal-delay-1">
+          <div class="solution-badge">🌸 Bloom makes it simple</div>
+          <div class="solution-cards">
+            <div class="sol-card"><div class="sol-icon">🎨</div><div class="sol-text">Beautiful templates designed for students</div></div>
+            <div class="sol-card"><div class="sol-icon">⚡</div><div class="sol-text">Live portfolio delivered in just 48 hours</div></div>
+            <div class="sol-card"><div class="sol-icon">💰</div><div class="sol-text">Prices built for student budgets</div></div>
+            <div class="sol-card"><div class="sol-icon">🌐</div><div class="sol-text">Custom domain + hosting included</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SERVICES
+  ══════════════════════════════════════════ -->
+  <section class="services-section" id="services">
+    <div class="section-inner">
+      <div class="section-tag reveal">🛠️ What We Offer</div>
+      <h2 class="section-title reveal reveal-delay-1">Everything you need to<br><span style="color:var(--green-deep)">get noticed</span></h2>
+
+      <div class="services-grid">
+        <div class="service-card featured reveal reveal-delay-1">
+          <div class="featured-badge">⭐ Most Popular</div>
+          <div class="service-icon">🌐</div>
+          <div class="service-title">Portfolio Website</div>
+          <div class="service-desc">A premium, fully custom portfolio site that showcases your projects, skills, and personality. Optimized for recruiters and search engines.</div>
+          <a href="#contact" class="service-link">Start now →</a>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon">🎨</div>
+          <div class="service-title">Ready Templates</div>
+          <div class="service-desc">Choose from our library of student-focused templates. Plug in your details and go live — no coding required.</div>
+          <a href="#templates" class="service-link">Browse templates →</a>
+        </div>
+
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon">📄</div>
+          <div class="service-title">Resume Builder</div>
+          <div class="service-desc">ATS-friendly resume templates designed to get you past automated screening and in front of real humans.</div>
+          <div style="margin-top:12px"><span class="coming-soon-tag">Coming Soon</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       TEMPLATES
+  ══════════════════════════════════════════ -->
+  <section class="templates-section" id="templates">
+  <div class="section-inner">
+    <div class="delivery-banner reveal">⚡ Delivered in 48 hours — guaranteed</div>
+    <div class="section-tag reveal">🖼️ Templates</div>
+    <h2 class="section-title reveal reveal-delay-1">Pick your style.<br><span style="color:var(--green-deep)">We do the rest.</span></h2>
+
+    <!-- Filter Buttons -->
+    <div class="filter-buttons reveal reveal-delay-1">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="dark">Dark</button>
+      <button class="filter-btn" data-filter="light">Light</button>
+    </div>
+
+    <div class="templates-grid">
+      <!-- Dark Theme Card -->
+      <div class="template-card reveal reveal-delay-2 dark-theme" data-category="dark">
+        <div class="template-thumb">
+          <div class="template-thumb-inner tc-2">
+            <img src="assets/Dark-Theme.png" alt="Dark Template" />
+          </div>
+          <div class="template-overlay"><a href="https://dark-themedd.netlify.app" class="overlay-btn">Preview →</a></div>
+        </div>
+        <div class="template-info">
+          <div class="template-name">Dark Theme</div>
+          <div class="template-type">Modern · Dark · Developer</div>
+          <div class="template-footer"></div>
+        </div>
+      </div>
+
+      <!-- Light Theme Card -->
+      <div class="template-card reveal reveal-delay-3 light-theme" data-category="light">
+        <div class="template-thumb">
+          <div class="template-thumb-inner tc-3">
+            <img src="assets/Light-Theme.png" alt="Light Template" />
+          </div>
+          <div class="template-overlay"><a href="https://light-themee.netlify.app" class="overlay-btn">Preview →</a></div>
+        </div>
+        <div class="template-info">
+          <div class="template-name">Light Theme</div>
+          <div class="template-type">Clean · Minimal · Student</div>
+          <div class="template-footer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+
+  <!-- ══════════════════════════════════════════
+       HOW IT WORKS
+  ══════════════════════════════════════════ -->
+  <section class="how-section" id="how">
+    <div class="section-inner">
+      <div class="section-tag reveal">🧠 How It Works</div>
+      <h2 class="section-title reveal reveal-delay-1">Choose how you want to<br><span style="color:var(--green-deep)">build your portfolio</span></h2>
+
+      <div class="how-grid">
+        <!-- Template-Based (Featured) -->
+        <div class="how-card featured reveal reveal-delay-1">
+          <div class="featured-badge">⭐ Most Popular</div>
+          <div class="how-icon">⚡</div>
+          <div class="how-subtitle">Fast · Affordable · Most Popular</div>
+          <div class="how-title">Template-Based</div>
+          <ul class="how-steps">
+            <li>Browse and select a template</li>
+            <li>Share your details (projects, skills, etc.)</li>
+            <li>We customize it for you</li>
+            <li>Delivered in 24–48 hours</li>
+          </ul>
+          <div class="how-highlight">Best for most students</div>
+        </div>
+
+        <!-- Custom Website -->
+        <div class="how-card reveal reveal-delay-2">
+          <div class="how-icon">💎</div>
+          <div class="how-subtitle">Unique · Premium · Fully Personalized</div>
+          <div class="how-title">Custom Website</div>
+          <ul class="how-steps">
+            <li>Share your requirements and ideas</li>
+            <li>We design a custom layout</li>
+            <li>Build everything from scratch</li>
+            <li>Deliver a fully unique portfolio</li>
+          </ul>
+          <div class="how-highlight">Best for personal branding</div>
+        </div>
+      </div>
+
+      <div style="text-align:center; margin-top:32px">
+        <p class="section-sub reveal reveal-delay-3" style="max-width:500px; margin:0 auto 24px auto; font-size:1.05rem;">No technical knowledge needed — we handle everything for you.</p>
+        <div style="display:inline-block">
+          <a href="#contact" class="btn-primary reveal reveal-delay-4"><span>Get Started 🚀</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <!-- ══════════════════════════════════════════
+       TESTIMONIALS
+  ══════════════════════════════════════════ -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="section-inner">
+      <div style="text-align:center">
+        <div class="section-tag reveal" style="display:inline-flex">💬 Testimonials</div>
+        <h2 class="section-title reveal reveal-delay-1">Students who <span style="color:var(--green-deep)">bloomed</span></h2>
+      </div>
+    </div>
+
+    <!-- Cards injected by script.js -->
+    <div class="testi-track-wrapper reveal">
+      <div class="testi-track" id="testiTrack"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FINAL CTA
+  ══════════════════════════════════════════ -->
+  <section class="cta-section">
+    <div class="section-inner" style="text-align:center;position:relative;z-index:1">
+      <div class="section-tag reveal" style="display:inline-flex;background:rgba(255,255,255,.12);color:rgba(255,255,255,.9)">🌸 Ready to Bloom?</div>
+      <h2 class="cta-title reveal reveal-delay-1">Start your journey with<br>Bloom today 🌸</h2>
+      <p class="cta-sub reveal reveal-delay-2">Get your portfolio in 48 hours and start getting interview calls.</p>
+      <div class="cta-btns reveal reveal-delay-3">
+        <a href="#contact" class="btn-cta-white">🚀 Get My Portfolio</a>
+        <a href="#templates" class="btn-cta-outline">View Templates</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       CONTACT
+  ══════════════════════════════════════════ -->
+  <section class="contact-section" id="contact">
+    <div class="section-inner">
+      <div class="section-tag reveal">📬 Contact Us</div>
+      <h2 class="section-title reveal reveal-delay-1">Get Your Portfolio <br><span style="color:var(--green-deep)">in 48 Hours 🚀</span></h2>
+
+      <div class="contact-grid">
+        <!-- Info -->
+        <div class="reveal reveal-delay-1">
+          <div class="contact-info-title">We'd love to hear from you ✨</div>
+          <div class="contact-info-sub">Share a few details and we’ll create your personal portfolio — simple, fast, and ready to share.</div>
+
+          <div class="contact-methods">
+            
+            <a href="mailto:hello@bloom.design" class="contact-method">
+              <div class="cm-icon">📧</div>
+              <div class="cm-text">bloomurfuture@gmail.com</div>
+            </a>
+            <a href="https://www.instagram.com/bloomurfuture?igsh=ZHgxbGJoNjl4NXk0" class="contact-method">
+              <div class="cm-icon">📸</div>
+              <div class="cm-text">@bloomurfuture</div>
+            </a>
+          </div>
+        </div>
+
+        <form action="https://formspree.io/f/xojkozon" method="POST" class="contact-form">
+  
+        <!-- Redirect -->
+       <input type="hidden" name="_redirect" value="https://bloom2026.netlify.app/thankyou.html">
+  <!-- Name -->
+  <div class="form-group">
+    <label class="form-label">Your Name</label>
+    <input class="form-input" type="text" name="name" placeholder="Priya Sharma" required />
+  </div>
+
+  <!-- WhatsApp -->
+  <div class="form-group">
+    <label class="form-label">WhatsApp Number</label>
+    <input class="form-input" type="tel" name="phone" placeholder="9876543210" required />
+  </div>
+
+  <!-- Plan -->
+  <div class="form-group">
+    <label class="form-label">Choose Plan</label>
+    <select class="form-input" name="plan" required>
+      <option value="">Select a plan</option>
+      <option>Template Only</option>
+      <option>Template + Setup</option>
+      <option>Custom Website</option>
+    </select>
+  </div>
+
+  <!-- Details -->
+  <div class="form-group">
+    <label class="form-label">Skills / Projects</label>
+    <textarea class="form-textarea" name="details" placeholder="React, JS | Project 1..." required></textarea>
+  </div>
+
+  <!-- Submit -->
+  <button class="form-submit" type="submit">
+    Get My Portfolio 🚀
+  </button>
+
+</form>
+    
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-logo">🌸 Bloom</div>
+    <div class="footer-copy">© 2025 Bloom. Built with 💚 for students.</div>
+    <div class="footer-links">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+
+  <!-- WhatsApp floating button -->
+  <!-- <a href="https://wa.me/919999999999" class="wa-float" target="_blank" title="Chat on WhatsApp">💬</a> -->
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
